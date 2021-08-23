@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+ <html lang="en">
+     <head>
+         <title> Form </title>
+     </head>
+     <body>
+         <form>
+             <label for="name"> Full Name</label>
+             
+             <div>
+                 <input type = 'text' placeholder="Full Name" name="full_name" id="name"></div>
+                 <label for="email"> Email id</label>
+                 <div>
+                     <input type="email" name="email" placeholder="Email id" id="email"></div>
+                     <label for="password"> Password</label>
+             <div><input type = "password" placeholder="password" name="password" id="password"></div>
+            
+            <div>
+                Favorite Color?
+                <input name ="color" type = "radio" value = "red">Red
+                <input name ="color" type = "radio" value = "blue">Blue
+                <input name ="color" type = "radio" value = "green">Green
+                <input name ="color" type = "radio" value = "other">Other
+            </div>
+            <div>
+                <input name="Country" list = "countries" placeholder="Country">
+                <datalist id="countries">
+                    <option value="Afghanistan"></option>
+                    <option value="Australia"></option>
+                    <option value="America"></option>
+                    <option value="Egypt"></option>
+                    <option value="England"></option>
+                    <option value="Boston"></option>
+                    <option value="Chille"></option>
+                    <option value="Denmark"></option>
+                    <option value="Hungary"></option>
+                    <option value="India" selected></option>
+                    <option value="Pakistan"></option>
+                    <option value="Bangladesh"></option>
+                </datalist>
+            </div>
+            <div>Description: <br> <textarea name="" id="" cols="30" rows="15"></textarea></div>
+            <div>
+                Date: <input type="date" name="date" id="">
+                Number: <input type="number" name="mynumber" id="">
+            </div>
+            <label for="e">Are you eligible?  </label>
+            <input type="checkbox" name="" id="e" checked>
+            <input type="submit" value = "GO">
+            <input type="reset" value="Reset now">
+         </form>
+     </body>
+ </html>
